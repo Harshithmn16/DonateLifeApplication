@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/third"
+    tools:context=".donatelifeapplication.HomeActivity">
+
+    <TextView
+        android:id="@+id/texts1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="You may fill an application form to donate organ."
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_below="@+id/btnsignup"/>
+
+    <TextView
+        android:id="@+id/texts2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="You may find a donar and his/her details."
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_below="@+id/btnsignup"/>
+
+
+    <Button
+        android:id="@+id/button_donate"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Donate"
+        android:textAllCaps="false"
+        android:textColor="#303B78"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#4A7177"></Button>
+
+    <Button
+        android:id="@+id/button_search"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Search Donars"
+        android:textAllCaps="false"
+        android:textColor="#303B78"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#4A7177"></Button>
+
+    <Button
+        android:id="@+id/goback"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"
+        android:backgroundTint="#4A7177"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Go back"
+        android:textAllCaps="false"
+        android:textColor="#303B78"
+        android:textSize="30sp"
+        android:textStyle="bold"></Button>
+
+</RelativeLayout>

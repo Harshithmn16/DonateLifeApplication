@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7AC4CF">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="210dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginRight="115dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="APPLICATION FORM"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/details1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Please fill up the followinf details. Follow the instructions specified. If unable to submit, please check the instructions."
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+            <TextView
+                android:id="@+id/details2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Make sure there is only one space between each word while filling up the details!"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="NAME"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/ename"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="ADDRESS"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/eaddress"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="CITY"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/ecity"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="STATE"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/estate"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="PHONE"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/ephone"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="EMAIL"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/eemail"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/institution"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="ORGAN DONATION INSTITUTION"
+                android:textSize="18dp"></TextView>
+            <TextView
+                android:id="@+id/inst"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/design_default_color_error"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Refer the beloew list and enter the same way![National organ organisation | National biometric center | Indian govt organ transplant center]"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/einstitution"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="AGE"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/eage"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="GENDER"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/egender"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="TIME OF DONATION"
+                android:textSize="18dp"></TextView>
+            <TextView
+                android:id="@+id/times"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/design_default_color_error"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="[Living Donar/ Deceased Donar (Atfer Death)]"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/etime"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/list"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="PLEASE MENTION THE ORGANS YOU WILL DONATE."
+                android:textSize="18dp"></TextView>
+            <TextView
+                android:id="@+id/lists"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="(One or Two organs can be donated)."
+                android:textSize="18dp"></TextView>
+            <TextView
+                android:id="@+id/note"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Before filling up, Please Note the following points!"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/list1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/design_default_color_error"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="* If a Living Donar - Organs that can be donated are - Kidney or Portion of lung/liver/pancreas/intestine or Tissues of skin/bone/heart valve/cornea"
+                android:textSize="18dp"></TextView>
+            <TextView
+                android:id="@+id/list2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/design_default_color_error"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="* If a Deceased donar (After death) - Not requried to fill the below details. It will be discussed when you are called to the instituion for the agreement process."
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/list3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Enter the organs as given in the list to avoid errors!"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/listx"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/design_default_color_error"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="If you wish to donate only one organ, Enter 'None' or 'none' in another field!"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/list4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Kidney | Lung portion | Liver portion | Pancreas portion | Intestine portion | Skin tissue | Bone tissue | Heart Valve tissue | Cornea tissue"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/organ1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="ORGAN 1"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/eorgan1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/organ2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="ORGAN 2"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/eorgan2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/nname"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="NOMINEE NAME"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/enname"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/nphone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="NOMINEE PHONE"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/enphone"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/nemail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="NOMINEE EMAIL"
+                android:textSize="18dp"></TextView>
+
+            <EditText
+                android:id="@+id/enemail"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="18dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/button_add"
+                android:textColor="@color/white"
+                android:layout_marginLeft="115dp"
+                android:layout_marginRight="115dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                app:backgroundTint="#4A7177"></Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

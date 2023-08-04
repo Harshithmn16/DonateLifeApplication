@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/first"
+    tools:context=".donatelifeapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="85dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="DONATE LIFE"
+        android:textColor="@color/black"
+        android:textSize="55dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:id="@+id/user"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="User Login"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/admin"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Admin Login"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold">
+    </Button>
+
+
+
+</RelativeLayout>

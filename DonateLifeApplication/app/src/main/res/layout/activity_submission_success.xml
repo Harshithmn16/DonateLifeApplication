@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#FF7AC4CF"
+    tools:context=".donatelifeapplication.SubmissionSuccess">
+
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="Your application is submitted successfully!">
+    </TextView>
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="The institution will verify your application form. After which you will be called for the further procedures and agreement!">
+    </TextView>
+    <TextView
+        android:id="@+id/info3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="You will be notified through an email, a call or an SMS abot when to come to insitution for further tests and agreement.                   You are requested to have your health records and any other medical history ready.Other necessary documentes will be notified to you in the email.">
+    </TextView>
+
+    <Button
+        android:id="@+id/goback"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="#4A7177"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Go back"
+        android:textAllCaps="false"
+        android:textColor="#303B78"
+        android:textSize="30sp"
+        android:textStyle="bold"></Button>
+</RelativeLayout>
