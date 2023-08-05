@@ -11,10 +11,10 @@
 
 
 # Run this Application only on Android Studio
-Step 1: See the code section at the right top of the repository and click download zip.
-Step 2: Find the zip in your file manager and unzip it.
-Step 3: Open Android Studio and click on open project and find the unzipped folder.
-Step 4: Click on it to open the project.
+# Step 1: See the code section at the right top of the repository and click download zip.
+# Step 2: Find the zip in your file manager and unzip it.
+# Step 3: Open Android Studio and click on open project and find the unzipped folder.
+# Step 4: Click on it to open the project.
 
 ![Screenshot 2023-08-05 140337](https://github.com/Harshithmn16/DonateLifeApplication/assets/124524990/2da4c8cf-6795-4313-9ede-4a9a233172d3)
 ![Screenshot 2023-08-05 140359](https://github.com/Harshithmn16/DonateLifeApplication/assets/124524990/b0020399-5779-40a2-aedb-2f284671d358)
